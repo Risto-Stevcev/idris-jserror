@@ -1,0 +1,21 @@
+package idris_jserror
+
+brief = "The javascript error type in idris"
+version = 0.1.0
+readme = ./README.md
+license = "MIT"
+author = "Risto Stevcev"
+maintainer = "Risto Stevcev"
+homepage = https://github.com/Risto-Stevcev/idris-jserror
+sourceloc = https://github.com/Risto-Stevcev/idris-jserror
+bugtracker = https://github.com/Risto-Stevcev/idris-jserror/issues
+
+modules = Data.JSError
+        , Test.Data.JSError
+
+{-
+-- A hack for running JS_IO tests until it gets added to idris
+executable = "test"
+opts = "--codegen node"
+main = Test.Data.JSError
+-}
