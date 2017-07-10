@@ -1,0 +1,21 @@
+{
+  "name": "idris-jserror",
+  "homepage": "https://github.com/Risto-Stevcev/idris-jserror",
+  "authors": [
+    "Risto Stevcev <risto1@gmail.com>"
+  ],
+  "description": "The javascript error type in idris",
+  "main": "",
+  "keywords": [
+    "idris",
+    "error"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
